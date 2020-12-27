@@ -56,7 +56,7 @@ export const alertChannel = async (options: Config) => {
     }
     exit(0, spinner);
   } catch (error) {
-    console.log(error)
+    console.error(error)
     exit(1, spinner, 'failed to sync env');
   }
 };
