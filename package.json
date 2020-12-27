@@ -1,5 +1,5 @@
 {
-  "name": "sync-dotenv-slack",
+  "name": "@shpe-utdallas/sync-dotenv-slack",
   "version": "0.1.0",
   "description": "Keep .env in sync with teammates on Slack",
   "main": "dist/cli.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codeshifu/sync-dotenv-slack.git"
+    "url": "git+https://github.com/SHPE-UTDallas/sync-dotenv-slack.git"
   },
   "keywords": [
     ".env",
