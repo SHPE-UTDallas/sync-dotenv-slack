@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "bundle": "parcel build cli.ts --target node --no-cache --no-source-maps",
-    "build": "npm-run-all --parallel clean bundle  && rm -rf ../sync/dist && mv ./dist ../sync/",
+    "build": "npm-run-all --parallel clean bundle",
     "build:start": "npm run build -- start",
     "dev": "nodemon --ext ts,json --exec 'npm run build && node dist/cli.js'",
     "start": "node dist/cli.js",
