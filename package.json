@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codeshifu/sync-dotenv-slack.git"
+    "url": "git+https://github.com/SHPE-UTDallas/sync-dotenv-slack/.git"
   },
   "keywords": [
     ".env",
